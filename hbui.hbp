@@ -1,0 +1,26 @@
+#
+
+-hblib
+-inc
+
+-olib/${hb_plat}/${hb_comp}/${hb_name}
+
+-w3 -es2
+
+-depurlbase=libui:https://github.com/andlabs/libui
+-depkeyhead=libui:ui.h
+-depcontrol=libui:${HB_WITH_LIBUI}
+-depincpath=libui:/usr/include
+
+-depimplibd=libui:ui
+-depfinish=libui
+
+-iinclude
+
+-hbx=include/${hb_name}.hbx
+
+src/*.c
+src/*.prg
+
+$hb_pkg_dynlib.hbm
+$hb_pkg_install.hbm
