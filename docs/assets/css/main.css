@@ -1,0 +1,183 @@
+* {
+   padding: 0;
+   box-sizing: border-box
+}
+
+body {
+   margin: 0;
+   font-family: -apple-system, BlinkMacSystemFont, "San Francisco", "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", Arial, sans-serif
+}
+
+.sidebar {
+   margin: 0;
+   padding: 0;
+   width: 300px;
+   background-color: #e5eae5;
+   position: fixed;
+   height: 90%;
+   overflow: auto
+}
+
+.sidebar a {
+   display: block;
+   color: #000;
+   padding: 12px;
+   text-decoration: none
+}
+
+.sidebar a.active {
+   background-color: #003300;
+   color: #fff
+}
+
+.sidebar a:hover:not(.active) {
+   background-color: #330000;
+   color: white;
+   text-decoration: none
+}
+
+.content {
+   margin-left: 350px;
+   padding: 1px 16px
+}
+
+.image {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 60%
+}
+
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   height: 10%;
+   background-color: #000033;
+   color: white;
+   text-align: center
+}
+
+.page {
+   background-color: #f7f7f7
+}
+
+.markdown h1, .markdown h2, .markdown h3 {
+   margin-top: 24px;
+   margin-bottom: 16px;
+   font-weight: 600;
+   line-height: 1.25
+}
+
+.markdown h1 {
+   padding-bottom: 0.3em;
+   font-size: 2em;
+   border-bottom: 1px solid #e5eae5;
+   color: #0c8bbb
+}
+
+.markdown h2 {
+   padding-bottom: 0.3em;
+   font-size: 1.5em;
+   border-bottom: 1px solid #e5eae5;
+   color: #0c8bbb
+}
+
+.markdown h3 {
+   padding-bottom: 0.3em;
+   font-size: 1.25em;
+   border-bottom: 1px solid #e5eae5;
+   color: #0c8bbb
+}
+
+.markdown h4 {
+   font-size: 1em
+}
+
+.markdown h5 {
+   font-size: 0.875em
+}
+
+.markdown h6 {
+   font-size: 0.85em;
+   color: #6a737d
+}
+
+.markdown p img {
+   max-width: 100%;
+   box-sizing: content-box;
+   background-color: #fff
+}
+
+.markdown blockquote {
+   background-color: #cfdadf;
+   font-size: 1em;
+   border-left: 4px solid #c39f58;
+   padding: 1px 16px;
+
+}
+
+.markdown pre {
+   font-size: 1.25em;
+   font-family: 'Courier New', Courier, monospace
+}
+
+.markdown ol, ul {
+   margin-left: 15px;
+   margin-right: 25px
+}
+
+.markdown ul li {
+   list-style: none
+}
+
+.markdown ul li:before {
+   content: '\2010';
+   display: block;
+   position: relative;
+   max-width: 0;
+   max-height: 0;
+   left: -0.8em;
+   top: -0.1em;
+   font-size: 1.2em
+}
+
+.markdown li {
+   font-size: 1em
+}
+
+.markdown li p {
+   -webkit-margin-before: 0;
+   -webkit-margin-after: 0
+}
+
+.markdown li code {
+   font-size: 1.25em;
+   color: #cc0000
+}
+
+.markdown .sidebar {
+   height: 100%;
+}
+
+@media screen and (max-width: 1024px) {
+   .sidebar {
+      width: 100%;
+      height: auto;
+      position: relative
+   }
+   .sidebar a {
+      float: left
+   }
+   .content {
+      margin-left: 0
+   }
+}
+
+@media screen and (max-width: 1024px) {
+   .sidebar a {
+      text-align: center;
+      float: none
+   }
+}

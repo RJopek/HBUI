@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+{% include head.html %}
+
+<body class="page">
+   <main class="markdown">
+      {% include sidebar.html %}
+      <div class="content">
+         {{ content }}
+         <a href="{{ site.github_url }}/{{ page.path }}" class="edit"><i class="fa fa-github"
+               aria-hidden="true"></i>Edit me <i class="fa fa-external-link" aria-hidden="true"></i></a>
+      </div>
+   </main>
+</body>
+
+</html>

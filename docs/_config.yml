@@ -1,0 +1,167 @@
+#
+# Site settings
+#
+
+#-
+url: https://harbour.pl/hbui
+baseurl: /hbui
+title: hbui
+github_url: https://github.com/rjopek/hbui/tree/master/docs
+
+markdown: kramdown
+highlighter: rouge
+
+#-
+collections:
+
+   asathanks:
+      output: true
+      permalink: /:collection/
+
+   hbuich:
+      output: true
+      permalink: /:collection/
+
+   standarddialogs:
+      output: true
+      permalink: /:collection/
+
+   uiarea:
+      output: true
+      permalink: /:collection/
+
+   uiattribute:
+      output: true
+      permalink: /:collection/
+
+   uiattributedstring:
+      output: true
+      permalink: /:collection/
+
+   uibox:
+      output: true
+      permalink: /:collection/
+
+   uibutton:
+      output: true
+      permalink: /:collection/
+
+   uicheckbox:
+      output: true
+      permalink: /:collection/
+
+   uicolorbutton:
+      output: true
+      permalink: /:collection/
+
+   uicombobox:
+      output: true
+      permalink: /:collection/
+
+   uicontrol:
+      output: true
+      permalink: /:collection/
+
+   uidatetimepicker:
+      output: true
+      permalink: /:collection/
+
+   uidrawmatrix:
+      output: true
+      permalink: /:collection/
+
+   uidrawpath:
+      output: true
+      permalink: /:collection/
+
+   uidrawtextlayout:
+      output: true
+      permalink: /:collection/
+
+   uieditablecombobox:
+      output: true
+      permalink: /:collection/
+
+   uientry:
+      output: true
+      permalink: /:collection/
+
+   uifontbutton:
+      output: true
+      permalink: /:collection/
+
+   uiform:
+      output: true
+      permalink: /:collection/
+
+   uigrid:
+      output: true
+      permalink: /:collection/
+
+   uigroup:
+      output: true
+      permalink: /:collection/
+
+   uiimage:
+      output: true
+      permalink: /:collection/
+
+   uilabel:
+      output: true
+      permalink: /:collection/
+
+   uimenu:
+      output: true
+      permalink: /:collection/
+
+   uimenuitem:
+      output: true
+      permalink: /:collection/
+
+   uimultilineentry:
+      output: true
+      permalink: /:collection/
+
+   uiopentypefeatures:
+      output: true
+      permalink: /:collection/
+
+   uiprogressbar:
+      output: true
+      permalink: /:collection/
+
+   uiradiobuttons:
+      output: true
+      permalink: /:collection/
+
+   uiseparator:
+      output: true
+      permalink: /:collection/
+
+   uislider:
+      output: true
+      permalink: /:collection/
+
+   uispinbox:
+      output: true
+      permalink: /:collection/
+
+   uitab:
+      output: true
+      permalink: /:collection/
+
+   uitable:
+      output: true
+      permalink: /:collection/
+
+   uitablemodel:
+      output: true
+      permalink: /:collection/
+
+   uitablevalue:
+      output: true
+      permalink: /:collection/
+
+   uiwindow:
+      output: true
+      permalink: /:collection/
