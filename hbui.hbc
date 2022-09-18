@@ -1,0 +1,17 @@
+#
+
+incpaths=include
+
+libpaths=lib/${hb_plat}/${hb_comp}
+libs=${hb_name}
+
+libpaths=${HB_WITH_LIBUI}/build/meson-out
+libs=ui
+
+# for static linking
+frameworks=Cocoa{darwin}
+libs=d2d1 uxtheme dwrite usp10{win}
+libs=stdc++{win&allgcc}
+ldflags=-static-libgcc -static-libstdc++{win&allgcc&static}
+
+gui=yes
